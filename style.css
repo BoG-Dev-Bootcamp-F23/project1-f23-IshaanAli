@@ -19,8 +19,14 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 
+}
+
+header {
+    margin-right: 290px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .ditto {
@@ -39,7 +45,8 @@ h1 {
     padding-bottom: 5px;
     padding-left: 145px;
     padding-right: 145px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-style: solid;
     border-radius: 5px;
     background-color: #E8E8E8;
@@ -58,13 +65,101 @@ h1 {
     list-style: none;
     font-family: sans-serif;
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 300;
     background-color: #E8E8E8;
+    margin-top: 10px;
     padding-top: 20px;
     padding-right: 100px;
     padding-bottom: 100px;
+    margin-bottom: 60px;
 }
 
+
+.left-buttons img {
+    height: 41px;
+    width: 41px;
+}
+
+button.left-button {
+    border-width: 0px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 30px;
+    margin-top: 75px;
+}
+
+button.right-button {
+    border-width: 0px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.info-button {
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color:#7CFF79;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-right: 30px;
+}
+
+.info-button p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.moves-button {
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 17px;
+    padding-left: 17px;
+    background-color: E8E8E8;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.moves-button p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* .types-list {
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+} */
+
+/* .types-list li {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: green;
+    border-radius: 5px;
+
+} */
 .main-content {
     display: flex;
     flex-direction: row;
